@@ -1,7 +1,7 @@
 const cloudinary = require("cloudinary");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: "backend/config/config.env" });
+dotenv.config({ path: ".env" });
 
 process.on("uncaughtException", (err) => {
   console.log("UNCAUGHT EXCEPTION! Shutting down...");

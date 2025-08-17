@@ -1,0 +1,84 @@
+*{
+    margin: 0px
+}
+
+.menuBurger {
+    box-sizing: content-box !important;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.scrollBar::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+}
+
+
+::-webkit-scrollbar {
+    height: 2px;
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(143, 143, 143);
+    border-radius: 50px;
+
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(88, 88, 88);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-item {
+    list-style: none;
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    border-left: 0px;
+    background-color: white;
+    padding: 1vmax 1.5vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.page-item:hover {
+    background-color: rgb(181, 180, 180);
+}
+
+.page-item:first-child {
+    border-left: 1px solid rgb(0, 0, 0, 0.8);;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.page-item:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.page-link {
+    text-decoration: none;
+    font: 300 0.7vmax;
+    color: rgb(80, 80, 80);
+    transition: all 0.5s;
+}
+
+.page-item:hover .page-link {
+    color: rgb(33, 33, 33)
+}
+
+.pageItemActive {
+    background-color: tomato;
+}
+
+.pageLinkActive {
+    color: white;
+}

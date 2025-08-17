@@ -1,0 +1,23 @@
+.dashboard {
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /* position: absolute; */
+  }
+    
+  .lineChart {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .doughnutChart {
+    width: 30vmax;
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .dashboard {
+      grid-template-columns: 1fr;
+    }
+  }

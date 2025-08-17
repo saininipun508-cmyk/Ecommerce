@@ -1,0 +1,7 @@
+.svgSize > svg {
+    font-size: 10vmax
+}
+
+.svgSize{
+    margin: 5vmax 0;
+}
